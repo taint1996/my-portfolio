@@ -28,14 +28,13 @@ const Home = () => {
 						sunt ea sit aliqua veniam sit irure deserunt.
 					</p>
 					{/* button */}
-					<div className="flex justify-center xl-hidden relative">
+					<div className="flex justify-center relative">
 						<ProjectsBtn />
 					</div>
 				</div>
-
-				{/* image */}
-				<div>Image</div>
 			</div>
+			{/* image */}
+			<div>Image</div>
 		</div>
 	);
 };
