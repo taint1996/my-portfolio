@@ -36,8 +36,11 @@ const Home = () => {
 						exit="hidden"
 						className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
 					>
-						Nostrud excepteur eiusmod anim proident Lorem in. Ex ullamco do ad
-						sunt ea sit aliqua veniam sit irure deserunt.
+						This essay takes a practical viewpoint—that of a graphic designer, a
+						creator of visual messages that assembles text and images in a
+						single product—and examines case studies in which the type becomes
+						an image using different methods depending on the context in which
+						it is employed.
 					</motion.p>
 					{/* button */}
 					<div className="flex justify-center xl:hidden relative">
@@ -55,7 +58,16 @@ const Home = () => {
 				</div>
 			</div>
 			{/* image */}
-			<div>Image</div>
+			<div className="w-[1200px] h-full absolute right-0 bottom-0">
+				{/* bg image */}
+				<div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full mix-blend-color-dodge translate-z-0"></div>
+				{/* particles  */}
+				<div>Particles</div>
+				{/* avatar img */}
+				<div className="w-full h-full max-w-[455px] max-h-[455px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
+					<Avatar />
+				</div>
+			</div>
 		</div>
 	);
 };
