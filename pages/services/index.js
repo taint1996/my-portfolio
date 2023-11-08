@@ -1,43 +1,3 @@
-import {
-	RxCrop,
-	RxPencil2,
-	RxDesktop,
-	RxReader,
-	RxRocket,
-} from "react-icons/rx";
-
-// service data
-export const serviceData = [
-	{
-		icon: <RxCrop />,
-		title: "Branding",
-		description: "Ad qui cupidatat ex officia labore enim.",
-	},
-	{
-		icon: <RxPencil2 />,
-		title: "Branding",
-		description: "Fugiat excepteur labore minim esse aute excepteur pariatur.",
-	},
-	{
-		icon: <RxDesktop />,
-		title: "Branding",
-		description:
-			"Quis irure culpa sit laborum dolore labore magna deserunt ut non id labore fugiat.",
-	},
-	{
-		icon: <RxReader />,
-		title: "Branding",
-		description:
-			"Elit culpa irure commodo exercitation anim do nostrud aliquip veniam amet.",
-	},
-	{
-		icon: <RxRocket />,
-		title: "Branding",
-		description:
-			"Qui pariatur ut id pariatur est tempor ipsum minim Lorem consequat nostrud.",
-	},
-];
-
 // components
 import ServiceSlider from "../../components/ServiceSlider";
 import Bulb from "../../components/Bulb";
@@ -64,8 +24,10 @@ const Services = () => {
 							consequat.
 						</p>
 					</div>
-					{/* slider */}
-					<ServiceSlider />
+					<div className="w-full xl:max-w-[65%]">
+						{/* slider */}
+						<ServiceSlider />
+					</div>
 				</div>
 			</div>
 			<Bulb />
